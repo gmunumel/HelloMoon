@@ -19,6 +19,15 @@
     <!-- Description of pause the file -->
     <string name="hellomoon_pause">Pause</string>
 
+    <!-- Description of play the video -->
+    <string name="hellomoon_play_video">Play Video</string>
+
+    <!-- Description of stop the video -->
+    <string name="hellomoon_stop_video">Stop Video</string>
+
+    <!-- Description of pause the video -->
+    <string name="hellomoon_pause_video">Pause Video</string>
+
     <!-- Description of image -->
     <string name="hellomoon_description">Neil Amstrong stepping onto the moon</string>
 

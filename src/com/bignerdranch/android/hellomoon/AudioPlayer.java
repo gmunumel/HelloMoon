@@ -26,7 +26,6 @@ public class AudioPlayer {
 		stop();
 		
 		mPlayer = MediaPlayer.create(c, R.raw.one_small_step);
-		
 		mPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
 			public void onCompletion(MediaPlayer mp) {
 				stop();

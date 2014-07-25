@@ -10,8 +10,12 @@
         android:layout_weight="1"
         android:src="@drawable/armstrong_on_moon" />
 
+    <VideoView
+        android:id="@+id/play_videoView"
+        android:layout_height="212dp" />
+
     <TableRow
-        android:gravity="center|bottom"
+        android:gravity="center"
         android:layout_weight="0" >
 
         <Button
@@ -31,6 +35,29 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/hellomoon_pause" />
+        
+    </TableRow>
+    <TableRow
+        android:gravity="center|bottom"
+        android:layout_weight="0" >
+
+        <Button
+            android:id="@+id/hellomoon_play_videoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hellomoon_play_video" />
+
+        <Button
+            android:id="@+id/hellomoon_stop_videoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hellomoon_stop_video" />
+
+        <Button
+            android:id="@+id/hellomoon_pause_videoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hellomoon_pause_video" />
         
     </TableRow>
 

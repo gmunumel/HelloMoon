@@ -1092,7 +1092,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f060016;
         public static final int action_menu_presenter=0x7f060017;
         public static final int action_mode_close_button=0x7f060024;
-        public static final int action_settings=0x7f060040;
+        public static final int action_settings=0x7f060044;
         public static final int activity_chooser_view_content=0x7f060025;
         public static final int always=0x7f06000b;
         public static final int beginning=0x7f060011;
@@ -1107,9 +1107,12 @@ containing a value of this type.
         public static final int expand_activities_button=0x7f060026;
         public static final int expanded_menu=0x7f06002c;
         public static final int hellomoon_fragment=0x7f06003c;
-        public static final int hellomoon_pauseButton=0x7f06003f;
-        public static final int hellomoon_playButton=0x7f06003d;
-        public static final int hellomoon_stopButton=0x7f06003e;
+        public static final int hellomoon_pauseButton=0x7f060040;
+        public static final int hellomoon_pause_videoButton=0x7f060043;
+        public static final int hellomoon_playButton=0x7f06003e;
+        public static final int hellomoon_play_videoButton=0x7f060041;
+        public static final int hellomoon_stopButton=0x7f06003f;
+        public static final int hellomoon_stop_videoButton=0x7f060042;
         public static final int home=0x7f060014;
         public static final int homeAsUp=0x7f060005;
         public static final int icon=0x7f06002a;
@@ -1121,6 +1124,7 @@ containing a value of this type.
         public static final int never=0x7f060009;
         public static final int none=0x7f060010;
         public static final int normal=0x7f060000;
+        public static final int play_videoView=0x7f06003d;
         public static final int progress_circular=0x7f060018;
         public static final int progress_horizontal=0x7f060019;
         public static final int radio=0x7f06002f;
@@ -1260,16 +1264,25 @@ containing a value of this type.
         public static final int hello_world=0x7f0b000e;
         /**  Description of image 
          */
-        public static final int hellomoon_description=0x7f0b0013;
+        public static final int hellomoon_description=0x7f0b0016;
         /**  Description of pause the file 
          */
         public static final int hellomoon_pause=0x7f0b0012;
+        /**  Description of pause the video 
+         */
+        public static final int hellomoon_pause_video=0x7f0b0015;
         /**  Description of play the file 
          */
         public static final int hellomoon_play=0x7f0b0010;
+        /**  Description of play the video 
+         */
+        public static final int hellomoon_play_video=0x7f0b0013;
         /**  Description of stop the file 
          */
         public static final int hellomoon_stop=0x7f0b0011;
+        /**  Description of stop the video 
+         */
+        public static final int hellomoon_stop_video=0x7f0b0014;
     }
     public static final class style {
         /** 
