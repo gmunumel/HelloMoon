@@ -16,6 +16,9 @@
     <!-- Description of stop the file -->
     <string name="hellomoon_stop">Stop</string>
 
+    <!-- Description of pause the file -->
+    <string name="hellomoon_pause">Pause</string>
+
     <!-- Description of image -->
     <string name="hellomoon_description">Neil Amstrong stepping onto the moon</string>
 

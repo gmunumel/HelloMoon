@@ -1092,7 +1092,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f060016;
         public static final int action_menu_presenter=0x7f060017;
         public static final int action_mode_close_button=0x7f060024;
-        public static final int action_settings=0x7f06003f;
+        public static final int action_settings=0x7f060040;
         public static final int activity_chooser_view_content=0x7f060025;
         public static final int always=0x7f06000b;
         public static final int beginning=0x7f060011;
@@ -1107,6 +1107,7 @@ containing a value of this type.
         public static final int expand_activities_button=0x7f060026;
         public static final int expanded_menu=0x7f06002c;
         public static final int hellomoon_fragment=0x7f06003c;
+        public static final int hellomoon_pauseButton=0x7f06003f;
         public static final int hellomoon_playButton=0x7f06003d;
         public static final int hellomoon_stopButton=0x7f06003e;
         public static final int home=0x7f060014;
@@ -1259,7 +1260,10 @@ containing a value of this type.
         public static final int hello_world=0x7f0b000e;
         /**  Description of image 
          */
-        public static final int hellomoon_description=0x7f0b0012;
+        public static final int hellomoon_description=0x7f0b0013;
+        /**  Description of pause the file 
+         */
+        public static final int hellomoon_pause=0x7f0b0012;
         /**  Description of play the file 
          */
         public static final int hellomoon_play=0x7f0b0010;
