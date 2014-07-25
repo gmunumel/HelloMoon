@@ -25,6 +25,15 @@ public class HelloMoonFragment extends Fragment {
 	private Button mPauseVideoButton;
 	
 	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		// When a fragment is retained, the fragment is not
+		// destroyed with the activity. Instead, it is preserved
+		// and passed along intact to the new activity.
+		setRetainInstance(true);
+	}
+
+	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup parent, 
 			Bundle savedInstanceState) {
 		View v = inflater.inflate(R.layout.fragment_hello_moon, parent, false);
@@ -51,6 +60,8 @@ public class HelloMoonFragment extends Fragment {
 		});
 
 		// Challenge 2 play video
+		// Comment the following lines because cause an performance error
+		/*
 		mVideoView = (VideoView)v.findViewById(R.id.play_videoView);
 		Uri resourceUri = Uri.parse("android.resource://" + 
 				  "com.bignerdranch.android.hellomoon/raw/apollo_17_stroll");
@@ -76,6 +87,7 @@ public class HelloMoonFragment extends Fragment {
 				mVideoView.pause();
 			}
 		});
+		*/
 		// end challenge 2
 		return v;
 	}
@@ -84,6 +96,6 @@ public class HelloMoonFragment extends Fragment {
 	public void onDestroy() {
 		super.onDestroy();
 		mPlayer.stop();
-		mVideoView.stopPlayback();
+		//mVideoView.stopPlayback();
 	}
 }
