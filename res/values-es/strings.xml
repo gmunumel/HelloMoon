@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Description of the app name -->
+    <string name="app_name">HolaLuna</string>
+
+    <!-- Description of the hello world dummy -->
+    <string name="hello_world">!Hola Mundo!</string>
+
+    <!-- Description of the configurations -->
+    <string name="action_settings">Configuraciones</string>
+
+    <!-- Description of play the file -->
+    <string name="hellomoon_play">Tocar</string>
+
+    <!-- Description of stop the file -->
+    <string name="hellomoon_stop">Detener</string>
+
+    <!-- Description of pause the file -->
+    <string name="hellomoon_pause">Pausar</string>
+
+    <!-- Description of play the video -->
+    <string name="hellomoon_play_video">Tocar Video</string>
+
+    <!-- Description of stop the video -->
+    <string name="hellomoon_stop_video">Detener Video</string>
+
+    <!-- Description of pause the video -->
+    <string name="hellomoon_pause_video">Pausar Video</string>
+
+    <!-- Description of image -->
+    <string name="hellomoon_description">Neil Amstrong pisando la luna</string>
+
+</resources>

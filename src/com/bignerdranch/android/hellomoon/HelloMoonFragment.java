@@ -1,28 +1,25 @@
 package com.bignerdranch.android.hellomoon;
 
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.MediaController;
-import android.widget.VideoView;
 
 public class HelloMoonFragment extends Fragment {
 	private AudioPlayer mPlayer = new AudioPlayer();
-	private AudioPlayer mPlayerVideo = new AudioPlayer();
+	//private AudioPlayer mPlayerVideo = new AudioPlayer();
 	
-	private VideoView mVideoView;
+	//private VideoView mVideoView;
     
 	private Button mPlayButton;
 	private Button mStopButton;
 	private Button mPauseButton;
 
-	private Button mPlayVideoButton;
-	private Button mStopVideoButton;
-	private Button mPauseVideoButton;
+	//private Button mPlayVideoButton;
+	//private Button mStopVideoButton;
+	//private Button mPauseVideoButton;
 	
 	@Override
 	public void onCreate(Bundle savedInstanceState) {

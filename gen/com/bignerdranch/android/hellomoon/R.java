@@ -1254,33 +1254,43 @@ containing a value of this type.
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0b000b;
         /**  Description of the configurations 
+ Description of the configurations 
          */
         public static final int action_settings=0x7f0b000f;
         /**  Description of the app name 
+ Description of the app name 
          */
         public static final int app_name=0x7f0b000d;
         /**  Description of the hello world dummy 
+ Description of the hello world dummy 
          */
         public static final int hello_world=0x7f0b000e;
         /**  Description of image 
+ Description of image 
          */
         public static final int hellomoon_description=0x7f0b0016;
         /**  Description of pause the file 
+ Description of pause the file 
          */
         public static final int hellomoon_pause=0x7f0b0012;
         /**  Description of pause the video 
+ Description of pause the video 
          */
         public static final int hellomoon_pause_video=0x7f0b0015;
         /**  Description of play the file 
+ Description of play the file 
          */
         public static final int hellomoon_play=0x7f0b0010;
         /**  Description of play the video 
+ Description of play the video 
          */
         public static final int hellomoon_play_video=0x7f0b0013;
         /**  Description of stop the file 
+ Description of stop the file 
          */
         public static final int hellomoon_stop=0x7f0b0011;
         /**  Description of stop the video 
+ Description of stop the video 
          */
         public static final int hellomoon_stop_video=0x7f0b0014;
     }
